@@ -43,9 +43,7 @@
 
 ## Themes
 
-Academic comes with **automatic day (light) and night (dark) mode** built-in. Alternatively, click the sun/moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to set your preferred mode!
 
-Choose a stunning theme for your site and [customize it](https://sourcethemes.com/academic/docs/customization/#custom-theme) to your liking:
 
 [![Themes](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/themes.png)](https://sourcethemes.com/academic/themes/)
 
@@ -55,57 +53,8 @@ Choose a stunning theme for your site and [customize it](https://sourcethemes.co
 
 [![Writing technical content](https://sourcethemes.com/academic/img/docs/writing-technical-content.gif)](https://academic-demo.netlify.com/post/writing-technical-content/)
 
-## Ecosystem
 
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
-
-## Install
-
-You can choose from one of the following four methods to install:
-
-* **one-click install using your web browser (recommended)**
-* install on your computer using Git with the Command Prompt/Terminal app
-* install on your computer by downloading the ZIP files
-* install on your computer with RStudio
-
-### Install with web browser
-
-[Install Academic with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
-  * One-click install of Academic creates an `academic-kickstart` repository in your GitHub or GitLab account
-  * Netlify will provide you with a customizable URL to access your new site, [or get your own domain](https://sourcethemes.com/academic/docs/domain/)
-  * Shortly after editing content in your repository, your site will automatically update
-  * Optionally, to edit your site in a [Markdown editor](https://www.typora.io) on your computer, perform the steps in the [*Install with Git*](#install-with-git) section below
-
-### Install with Git
-
-Prerequisites:
-
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo Extended v0.63.1+](https://gohugo.io/getting-started/installing/#quick-install)
-
-Install:
-
-1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository to create a new website
-   * If you already created your site with **Netlify**, then skip this step
-2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username: 
-
-    ```bash
-    git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    ```
-    
-3. Initialize the theme:
-
-    ```bash
-    cd My_Website
-    git submodule update --init --recursive
-    ```
-
-### Install with ZIP
-
-Prerequisites:
-
-* [Download and install Hugo Extended v0.63.1+](https://gohugo.io/getting-started/installing/#quick-install)
+ nstalling/#quick-install)
 
 Install:
 
